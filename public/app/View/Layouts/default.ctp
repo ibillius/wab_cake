@@ -91,17 +91,8 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
             <div class="span10 wab_content">
               <img src="img/wab_border_background.png" class="bg_image" id="content-border">
               <div class="content_padding">
-                <img src="img/sepia_sweater_60.jpg">
-                <h1>Brenna & Will Are Getting Married</h1>
-                <h2>October 20th, 2013</h2>
-                <h2>In Tucson, Arizona</h2>
-                <h3>Formal Invitation To Follow</h3>
-                <ul class="menu">
-                  <li><a class="selected" href="http://www.google.com">Home</a></li>
-                  <li><a href="#">Registry</a></li>
-                  <li><a href="#">Accomodations</a></li>
-                  <li><a href="#">Gallery</a></li>
-                </ul>
+                <?php echo $this->fetch('content'); ?>
+                <?php echo $this->element('menu'); ?>
               </div>
             </div>
           </div><!--End of container div --!>
