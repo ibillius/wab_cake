@@ -48,6 +48,13 @@ body{
   background-image:url('../img/paper_texture.jpg');
 }
 
+body p{
+  text-transform: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
 .js_warning{
   text-align: center; 
   background-color: #FF0000; 

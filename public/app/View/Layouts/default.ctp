@@ -83,7 +83,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
             <div class="span10  wab_header">
               <img src="img/wab_header.png" id="header_image" class="bg_image">
               <div class="content_padding">
-                <h1>Save The Date</h1> 
+                <h1><?php echo $title_for_layout; ?></h1>
               </div>
             </div>
           </div><!-- End of row --!>
