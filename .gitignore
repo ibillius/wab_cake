@@ -12,3 +12,5 @@ public/app/[Cc]onfig/database.php
 public/app/View/Layouts/.default.ctp.swp
 
 *.swp
+
+.DS_Store

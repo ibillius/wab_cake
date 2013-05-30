@@ -74,7 +74,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
                     padding-bottom: 40px;
                 }
               </style>
-              <div class="span12 js_warning">
+              <div class="span10 js_warning">
                 <div class="content_padding">
                   It looks like you have JavaScript disabled.  Enable JavaScript to get the full experience!
                 </div>
@@ -82,6 +82,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
             </noscript>
             <div class="span10  wab_header">
               <img src="img/wab_header.png" id="header_image" class="bg_image">
+              <img src="img/small_paper_texture.png" class="texture_image">
               <div class="content_padding">
                 <h1><?php echo $title_for_layout; ?></h1>
               </div>
@@ -95,12 +96,13 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
                 <?php echo $this->element('menu'); ?>
               </div>
             </div>
-          </div><!--End of container div --!>
+          </div><!--End of row div --!>
           <div class="row" id="footer_row">
             <div class="span10  wab_footer">
                  <img src="img/wab_footer.png" class="bg_image" id="footer_image">
             </div>
-          </div><!--End of container div --!>
+          </div><!--End of row div --!>
+        </div><!-- End of container div --!>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

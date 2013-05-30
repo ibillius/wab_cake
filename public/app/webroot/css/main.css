@@ -45,7 +45,7 @@ body{
   text-transform: uppercase;
   font-family: 'plaza_letplain', Arial, sans-serif;
   color: #073296;
-  background-image:url('../img/paper_texture.jpg');
+  background-image:url('../img/grey_wash_wall.png');
 }
 
 body p{
@@ -93,6 +93,18 @@ img.bg_image{
   z-index: -999;
 }
 
+img.texture_image{
+  width: 105%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1000;
+  -webkit-box-shadow: 4px 4px 8px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    4px 4px 8px rgba(50, 50, 50, 0.75);
+  box-shadow:         4px 4px 8px rgba(50, 50, 50, 0.75);
+}
+
+
 h1{
   font-size: 4em;  
 }
@@ -100,7 +112,6 @@ h1{
 h1,h2,h3{
   font-weight: normal;
 }
-
 
 
 
