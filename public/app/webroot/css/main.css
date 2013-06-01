@@ -56,13 +56,6 @@ body p{
   text-align: left;
 }
 
-.js_warning{
-  text-align: center; 
-  background-color: #FF0000; 
-  font-family: Arial; 
-  color: #FFFFFF;
-}
-
 .wrapper_span{
   position: relative;
 }
@@ -100,6 +93,7 @@ img.bg_image{
 
 img.texture_image{
   height: 100%;
+  width: 100%;
   left: 0;
   position: absolute;
   top: 0;
