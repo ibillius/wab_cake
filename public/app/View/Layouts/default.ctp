@@ -63,28 +63,32 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <div class="container center">
-          <div class="row" id="header_row">
-            <div class="offset1 span10  wab_header">
-              <!-- <img src="img/small_paper_texture.png" class="texture_image"> --!>
-              <img src="img/wab_header.png" id="header_image" class="bg_image">
-              <div class="content_padding">
-                <h1><?php echo $title_for_layout; ?></h1>
-              </div>
-            </div>
-          </div><!-- End of row --!>
-          <div class="row" id="content_row">
-            <div class="offset1 span10 wab_content">
-              <img src="img/wab_border_background.png" class="bg_image" id="content-border">
-              <div class="content_padding">
-                <?php echo $this->fetch('content'); ?>
-                <?php echo $this->element('menu'); ?>
-              </div>
-            </div>
-          </div><!--End of row div --!>
-          <div class="row" id="footer_row">
-            <div class="offset1 span10  wab_footer">
-                 <img src="img/wab_footer.png" class="bg_image" id="footer_image">
-            </div>
+          <div class="row">
+            <div class="span10 offset1 wrapper_span">
+              <img src="img/small_paper_texture.png" class="texture_image">
+              <div class="row" id="header_row">
+                <div class=" span10  wab_header">
+                  <img src="img/wab_header.png" id="header_image" class="bg_image">
+                  <div class="content_padding">
+                    <h1><?php echo $title_for_layout; ?></h1>
+                  </div>
+                </div>
+              </div><!-- End of row --!>
+              <div class="row" id="content_row">
+                <div class=" span10 wab_content">
+                  <img src="img/wab_border_background.png" class="bg_image" id="content-border">
+                  <div class="content_padding">
+                    <?php echo $this->fetch('content'); ?>
+                    <?php echo $this->element('menu'); ?>
+                  </div>
+                </div>
+              </div><!--End of row div --!>
+              <div class="row" id="footer_row">
+                <div class=" span10  wab_footer">
+                     <img src="img/wab_footer.png" class="bg_image" id="footer_image">
+                </div>
+              </div><!--End of row div --!>
+            </div><!--End of span10 offset1!-->
           </div><!--End of row div --!>
         </div><!-- End of container div --!>
 
