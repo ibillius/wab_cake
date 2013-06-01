@@ -64,32 +64,16 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
         <![endif]-->
         <div class="container center">
           <div class="row" id="header_row">
-            <noscript>
-              <style>
-                .bg_image{
-                  display: none;
-                }
-                body {
-                    padding-top: 0px;
-                    padding-bottom: 40px;
-                }
-              </style>
-              <div class="span10 js_warning">
-                <div class="content_padding">
-                  It looks like you have JavaScript disabled.  Enable JavaScript to get the full experience!
-                </div>
-             </div>
-            </noscript>
-            <div class="span10  wab_header">
+            <div class="offset1 span10  wab_header">
+              <!-- <img src="img/small_paper_texture.png" class="texture_image"> --!>
               <img src="img/wab_header.png" id="header_image" class="bg_image">
-              <img src="img/small_paper_texture.png" class="texture_image">
               <div class="content_padding">
                 <h1><?php echo $title_for_layout; ?></h1>
               </div>
             </div>
           </div><!-- End of row --!>
           <div class="row" id="content_row">
-            <div class="span10 wab_content">
+            <div class="offset1 span10 wab_content">
               <img src="img/wab_border_background.png" class="bg_image" id="content-border">
               <div class="content_padding">
                 <?php echo $this->fetch('content'); ?>
@@ -98,7 +82,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
             </div>
           </div><!--End of row div --!>
           <div class="row" id="footer_row">
-            <div class="span10  wab_footer">
+            <div class="offset1 span10  wab_footer">
                  <img src="img/wab_footer.png" class="bg_image" id="footer_image">
             </div>
           </div><!--End of row div --!>
@@ -109,7 +93,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
 
         <?php
           echo $this->Html->script('/vendor/bootstrap.min.js"');
-          echo $this->Html->script('main.js');
+          //echo $this->Html->script('main.js');
         ?>
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
