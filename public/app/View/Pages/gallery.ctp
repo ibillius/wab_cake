@@ -63,9 +63,9 @@ foreach($dir as $file) {
 
       <tr>
         <td><a class="thumbnail" rel="lightbox[wab]" href=
-        "/wab_cake/public/img/gallery/cthulu_deutschland.jpg"
-        title="Us in Will's student housing in Germany with baby Cthulu."><img alt="" src=
-        "/wab_cake/public/img/gallery/thumbs/cthulu_deutschland.jpg" /></a></td>
+        "/wab_cake/public/img/gallery/cthulhu_deutschland.jpg"
+        title="Us in Will's student housing in Germany with baby Cthulhu."><img alt="" src=
+        "/wab_cake/public/img/gallery/thumbs/cthulhu_deutschland.jpg" /></a></td>
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
         "/wab_cake/public/img/gallery/dancing.jpg"

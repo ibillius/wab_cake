@@ -7,7 +7,7 @@
   Brenna: <a target="_blank" href="mailto:bren_ha@yahoo.com">bren_ha@yahoo.com</a>
 </p>
 <p>
-  Will: <a target="_blank" href="mailto:wss.simpson@gmail.com">wss.simpson@gmail.com"</a>
+  Will: <a target="_blank" href="mailto:wss.simpson@gmail.com">wss.simpson@gmail.com</a>
 </p>
 
 <h2>The Windmill Inn</h2>
