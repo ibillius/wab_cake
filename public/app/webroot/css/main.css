@@ -56,6 +56,11 @@ body p{
   text-align: left;
 }
 
+a.map_link{
+  text-transform: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .wrapper_span{
   position: relative;
 }
