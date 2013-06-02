@@ -69,7 +69,7 @@ foreach($dir as $file) {
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
         "/wab_cake/public/img/gallery/dancing.jpg"
-        title="Dancing the night away at Brenna's cousin Dani's wedding."><img alt="" src=
+        title="Dancing the night away at a wedding."><img alt="" src=
         "/wab_cake/public/img/gallery/thumbs/dancing.jpg" /></a></td>
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
@@ -106,7 +106,7 @@ foreach($dir as $file) {
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
         "/wab_cake/public/img/gallery/louvre.jpg"
-        title="Just hitting up the Lourve, no big deal."><img alt="" src=
+        title="Just hitting up the Louvre, no big deal."><img alt="" src=
         "/wab_cake/public/img/gallery/thumbs/louvre.jpg" /></a></td>
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
@@ -131,16 +131,15 @@ foreach($dir as $file) {
         title="Us by the Potomac River."><img alt="" src=
         "/wab_cake/public/img/gallery/thumbs/potomac.jpg" /></a></td>
 
-        <td><a class="thumbnail" rel="lightbox[wab]" href=
-        "/wab_cake/public/img/gallery/proposal_1.jpg"
-        title="Will's proposal to Brenna via a Scrabble puzzle."><img alt="" src=
-        "/wab_cake/public/img/gallery/thumbs/proposal_1.jpg" /></a></td>
+        <td><a class="thumbnail" rel="lightbox[wab]" href="/wab_cake/public/img/gallery/tj.jpg"
+        title="Us with our good friend TJ in DC."><img alt=""
+        src="/wab_cake/public/img/gallery/thumbs/tj.jpg" /></a></td>
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
-        "/wab_cake/public/img/gallery/proposal_2.jpg"
-        title="Will gave Brenna a box with the engagement ring and the letters needed to play either &quot;yes&quot; or &quot;no&quot;
-        and was ever so glad when she played &quot;yes&quot;.">
-        <img alt="" src="/wab_cake/public/img/gallery/thumbs/proposal_2.jpg" /></a></td>
+        "/wab_cake/public/img/gallery/wills_bday.jpg"
+        title="Us together for Will's birthday."><img alt="" src=
+        "/wab_cake/public/img/gallery/thumbs/wills_bday.jpg" /></a></td>
+
       </tr>
 
       <tr>
@@ -159,14 +158,18 @@ foreach($dir as $file) {
         title="Brenna taking a picture of the hotel in Paris and Will being a stalker."><img alt="" src=
         "/wab_cake/public/img/gallery/thumbs/stalker.jpg" /></a></td>
 
-        <td><a class="thumbnail" rel="lightbox[wab]" href="/wab_cake/public/img/gallery/tj.jpg"
-        title="Us with our good friend TJ in DC."><img alt=""
-        src="/wab_cake/public/img/gallery/thumbs/tj.jpg" /></a></td>
+                
+        <td><a class="thumbnail" rel="lightbox[wab]" href=
+        "/wab_cake/public/img/gallery/proposal_1.jpg"
+        title="Will's proposal to Brenna via a Scrabble puzzle."><img alt="" src=
+        "/wab_cake/public/img/gallery/thumbs/proposal_1.jpg" /></a></td>
 
         <td><a class="thumbnail" rel="lightbox[wab]" href=
-        "/wab_cake/public/img/gallery/wills_bday.jpg"
-        title="Us together for Will's birthday."><img alt="" src=
-        "/wab_cake/public/img/gallery/thumbs/wills_bday.jpg" /></a></td>
+        "/wab_cake/public/img/gallery/proposal_2.jpg"
+        title="Will gave Brenna a box with the engagement ring and the letters needed to play either &quot;yes&quot; or &quot;no&quot;
+        and was ever so glad when she played &quot;yes&quot;.">
+        <img alt="" src="/wab_cake/public/img/gallery/thumbs/proposal_2.jpg" /></a></td>
+
       </tr>
 
       <tr>

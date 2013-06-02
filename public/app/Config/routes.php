@@ -31,6 +31,7 @@
 	Router::connect('/registry', array('controller' => 'pages', 'action' => 'display', 'registry'));
 	Router::connect('/accomodations', array('controller' => 'pages', 'action' => 'display', 'accomodations'));
 	Router::connect('/gallery', array('controller' => 'pages', 'action' => 'display', 'gallery'));
+	Router::connect('/venue', array('controller' => 'pages', 'action' => 'display', 'venue'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
