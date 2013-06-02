@@ -28,8 +28,11 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="The official website for Brenna Haraldsen and Will Simpson's wedding!">
+
+        
         <title>
-          <?php echo $cakeDescription ?>:
+          <?php echo $cakeDescription ?> |
 		      <?php echo $title_for_layout; ?>
         </title>
         <link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
@@ -94,6 +97,10 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <?php
+          echo $this->Html->script('/lightbox/js/lightbox.js');
+          echo $this->Html->css('/lightbox/css/lightbox.css');
+        ?>
 
         <?php
           echo $this->Html->script('/vendor/bootstrap.min.js"');
