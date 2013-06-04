@@ -76,7 +76,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
                     <h1><?php echo $title_for_layout; ?></h1>
                   </div>
                 </div>
-              </div><!-- End of row --!>
+              </div><!-- End of row -->
               <div class="row" id="content_row">
                 <div class=" span10 wab_content">
                   <img src="img/wab_border_background.png" class="bg_image" id="content-border">
@@ -85,15 +85,15 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
                     <?php echo $this->element('menu'); ?>
                   </div>
                 </div>
-              </div><!--End of row div --!>
+              </div><!--End of row div -->
               <div class="row" id="footer_row">
                 <div class=" span10  wab_footer">
                      <img src="img/wab_footer.png" class="bg_image" id="footer_image">
                 </div>
-              </div><!--End of row div --!>
-            </div><!--End of span10 offset1!-->
-          </div><!--End of row div --!>
-        </div><!-- End of container div --!>
+              </div><!--End of row div -->
+            </div><!--End of span10 offset1 -->
+          </div><!--End of row div -->
+        </div><!-- End of container div -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
