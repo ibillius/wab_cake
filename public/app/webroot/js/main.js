@@ -6,12 +6,10 @@
       if(e.keyCode === woozle_keys[woozle_index++]){
          if(woozle_index === woozle_keys.length){
             $(document).unbind('keydown', arguments.callee);
-            var woozle_image = $('<img id="woozle" src="/img/ozy_tongue.png" style="position: fixed; bottom: -571px; left: -410px;" />');
-            $('body').append(woozle_image);
-            $('#woozle').animate({"bottom" : "0","left" : "0", }, 300, function(){
-              $(this).delay(1000).animate({"bottom" : "-571px", "left" : "-410px"}, 300);
+            document.getElementById('meow').play();
+            $('#woozle').animate({"bottom" : "0","left" : "0", 'display':'block' }, 300, function(){
+              $(this).delay(2000).animate({"bottom" : "-571px", "left" : "-410px", 'display' : 'none'}, 300);
             });
-            woozle_index = 0;
          }
       }else{
           woozle_index = 0;

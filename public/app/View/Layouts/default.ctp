@@ -62,6 +62,14 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
 
     </head>
     <body>
+      <audio id="meow" controls style="display: none;">
+        <source src="/audio/wab_meow.ogg" type="audio/ogg">
+        <source src="/audio/wab_meow.mp3" type="audio/mpeg">
+        <source src="/audio/wab_meow.wav" type="audio/wav">
+      </audio>
+      <!-- <img id="woozle" src="/img/ozy_tongue.png" style="position: fixed; bottom: -571px; left: -410px; display:none;" /> -->
+      <img id="woozle" src="/img/ozy_tongue.png" style="position: fixed; bottom: -571px; left: -410px;" />
+    
                 <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
