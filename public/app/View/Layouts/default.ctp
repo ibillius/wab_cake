@@ -104,7 +104,7 @@ $cakeDescription = __d('cake_dev', 'Brenna & Will\'s Wedding');
 
         <?php
           echo $this->Html->script('/vendor/bootstrap.min.js"');
-          //echo $this->Html->script('main.js');
+          echo $this->Html->script('main.js');
         ?>
         <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
