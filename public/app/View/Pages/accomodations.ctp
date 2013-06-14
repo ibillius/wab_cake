@@ -4,10 +4,10 @@
 <p>Please know that the University of Arizona is having Parent's Weekend the weekend of our wedding, so it's probably a good idea to book your room sooner rather than later.  Guests staying at the Westward Look or Windmill Inn can contact us for a discount code before booking their room.  Here are our email addresses:</p>
 
 <p>
-  Brenna: <a target="_blank" href="mailto:bren_ha@yahoo.com">bren_ha@yahoo.com</a>
+  Brenna: bren_ha (at) yahoo (dot) com
 </p>
 <p>
-  Will: <a target="_blank" href="mailto:wss.simpson@gmail.com">wss.simpson@gmail.com</a>
+  Will: wss (dot) simpson (at) gmail (dot) com
 </p>
 
 <h2>The Windmill Inn</h2>
