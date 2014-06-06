@@ -68,7 +68,7 @@ class PagesController extends AppController {
 		}
     if (!empty($path[$count - 1])) {
 			if($path[$count - 1] === 'home'){
-        $title_for_layout = 'Save The Date!';  
+        $title_for_layout = 'Brenna and Will Are Getting Married!';  
       }else{
         $title_for_layout = Inflector::humanize($path[$count - 1]);
 		  }

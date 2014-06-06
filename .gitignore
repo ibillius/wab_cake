@@ -5,7 +5,6 @@ public/tmp/*
 public/[Cc]onfig/core.php
 public/[Cc]onfig/database.php
 public/app/tmp/*
-public/app/[Cc]onfig/core.php
 public/app/[Cc]onfig/database.php
 !empty
 
